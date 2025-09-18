@@ -4,3 +4,25 @@ multi paradigm: imperative and declative programming
 
 ES - ecma script
 ES6 - 2015
+
+var → initialized to undefined.
+let → initialized to undefined but in TDZ until declaration.
+const → must be initialized immediately.
+Undeclared variable → ReferenceError.
+Missing object property / array element → undefined
+
+camelCase = firstName
+PascalCase = firstName
+snake_case = first_name
+
+we can start variable names with _ and $
+
+Primitive Types:
+string: "Alice", number: 25 or 25.11, bigint: large ints, boolean: true/false, undefined: (let x;), null: (let x = null)
+
+Non-Primitive
+object: let user = { name: "Alice", age: 25 };
+array: let numbers = [1, 2, 3];
+function
+
+typeof null;       // "object"

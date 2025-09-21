@@ -1,0 +1,6 @@
+argument - real, parameter - name of the variable that holds arguments
+
+extra arguments are handled in JS functions (since JS doesn’t throw an error if you pass too many/few)
+
+In JavaScript, when you pass fewer arguments than the function’s parameters:The missing parameters are automatically assigned the value undefined.
+

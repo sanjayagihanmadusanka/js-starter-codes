@@ -52,11 +52,23 @@ console.log(s);          // "42" (string)
 let b = true;
 console.log(Number(b));  // 1
 
-Type Coercion: Implicit conversion (done automatically by JavaScript).
+Type Coercion: Implicit conversion (done automatically by JavaScript). type Coercion also happen when dealing with operators for example '21'-'10' will result 11(int), but '21'+'10' will result '2110'.
 // String + Number → String (concatenation)
 console.log("5" + 2);  // "52"
 // String - Number → Number (subtraction forces numeric conversion)
 console.log("5" - 2);  // 3
 // Boolean → Number (in arithmetic)
 console.log(true + 1); // 2
+
+falsy values(only 5):0, null, undefined, NaN, ""
+everything else is truthy(will convert to true when cast to boolean)
+
+loose equality and strict equality
+18=='18' true
+18==='18' false
+
+logical: &&, ||, !
+
+Expression: Produces a value.
+Statement: Performs an action.
 

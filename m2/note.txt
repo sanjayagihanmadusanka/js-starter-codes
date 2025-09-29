@@ -4,3 +4,19 @@ extra arguments are handled in JS functions (since JS doesn’t throw an error i
 
 In JavaScript, when you pass fewer arguments than the function’s parameters:The missing parameters are automatically assigned the value undefined.
 
+Using new Array(size) makes sense only when you know the length in advance and want to preallocate an array of that size. For example:
+let arr = new Array(5);
+console.log(arr); // [ <5 empty items> ]
+console.log(arr.length); // 5
+let arr = new Array(1,2,3) //[ 1, 2, 3 ]
+
+undefined - when we try to access properties of objects that doesn't defined
+
+In JavaScript, arrays are not type-restricted.
+const arr = ["car", 5, true]; //valid
+
+Function Declarations → can be used anywhere in their scope, even before the line of code. (function(){})
+Function Expressions → can only be used after the line of code is executed. (()=> {})
+
+Without declaration → creates a global variable (if not in strict mode).
+In strict mode → throws a ReferenceError.

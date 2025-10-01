@@ -1,0 +1,39 @@
+Document Object Model
+
+It’s a programming interface that represents the structure of a webpage as a tree of objects.
+Each HTML element (<div>, <p>, <h1>, etc.) becomes a node in this tree.
+JavaScript can use the DOM to access, modify, add, or delete elements dynamically.
+everything in the HTML file is part of the DOM (including text and comments)
+DOM is a part of web api and browsers implement them.
+
+example:
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DOM Example</title>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <p>This is a paragraph.</p>
+  </body>
+</html>
+
+Document
+ └── html
+      ├── head
+      │     └── title
+      │           └── "DOM Example"
+      └── body
+            ├── h1
+            │     └── "Hello World"
+            └── p
+                  └── "This is a paragraph."
+
+
+document.querySelector('.message') // to select class
+document.querySelector('body') // to select html tag
+document.getElementById("myId"); // to select id
+
+document.querySelector(".message");   // first element with class
+document.querySelector("#myId");      // first element with id
+document.querySelectorAll("div.box"); // all <div class="box">

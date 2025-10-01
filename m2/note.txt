@@ -20,3 +20,5 @@ Function Expressions → can only be used after the line of code is executed. ((
 
 Without declaration → creates a global variable (if not in strict mode).
 In strict mode → throws a ReferenceError.
+
+instead of breakpoints we can also use 'debugger' in code.

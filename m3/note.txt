@@ -1,0 +1,27 @@
+<head>: put setting here
+<div>: like a box
+<style></style>: for css in html file
+<link href="styles.css" rel="stylesheet">
+
+// element selector
+body {
+
+}
+
+// class selector
+.form-class{
+
+}
+
+//id selector
+#name-input{
+
+}
+
+// select everything
+*{
+
+}
+
+Padding = inside spacing (content → border)
+Margin = outside spacing (border → other elements)
